@@ -6,7 +6,7 @@ name: Branch Merge to Develop
 on:
   push:
     branches:
-      - "@langnang-temp/node"
+      - "@langnang-temp/express"
 
 jobs:
   sync-branch:
@@ -17,6 +17,6 @@ jobs:
       - name: Merge Branch
         uses: devmasx/merge-branch@master
         with:
-          from_branch: "@langnang-temp/node"
+          from_branch: "@langnang-temp/express"
           target_branch: "develop"
           github_token: ${{ github.GITHUB_TOKEN }}
