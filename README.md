@@ -1,27 +1,11 @@
-# node
+# express-server
 
+## 依赖项
 
-## Branches
+- [axios](https://github.com/axios/axios)：基于 Promise 的 HTTP 客户端，适用于 Node.js 和 浏览器。
+- cheerio
+- require-context
+- swagger-jsdoc
+- swagger-ui-express
 
-```sh
-
-┌───────────────────────┐       ┌─────────────────────────┐       ┌───────────┐       ┌──────────┐
-|                       |       |                         |       |           |       |          |
-|  @langnang-temp/root  | ====> |   @langnang-temp/node   | ====> |  develop  | ====> |  master  |
-|   Sync from template  |       |     Sync to remote      |       |           |       |          |
-└───────────────────────┘       └─────────────────────────┘       └───────────┘       └──────────┘
-
-```
-
-### Sync to remote
-
-```sh
-# add remote url
-git remote set-url --add origin [url]
-# checkout the branch for sync
-git checkout [branch]
-
-git pull
-# force push
-git push -f
-```
+## 目录结构
